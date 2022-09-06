@@ -1,1 +1,0 @@
-let n = prompt ("What is your number?");
