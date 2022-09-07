@@ -50,3 +50,7 @@ else
 {
     console.log(`${Number(n).toString(2)}`);
 }
+
+//decimal to hex using .toString
+console.log(Math.abs(n).toString(16));
+alert(Math.abs(n).toString(16)); 
