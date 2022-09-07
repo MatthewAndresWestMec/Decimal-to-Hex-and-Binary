@@ -6,7 +6,7 @@ var e;
 let n = (Number(val).toString(2)) 
 e = String(n)
 
-//converts the decimal to unformatted bianry
+//converts the decimal to unformatted binary
 
 if (e.length<8)
 {
@@ -16,7 +16,7 @@ if (e.length<8)
 
 
 
-// adds the zeros to the front of the bianry number
+// adds the zeros to the front of the binary number
 
 if(l == -7)
 {
