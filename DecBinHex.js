@@ -1,12 +1,17 @@
 //defines all the vars we need to do math later
 
 let val = prompt("what is the decimal?");
-var l;
+
+//e = checks length of decimal to binary
 var e;
+//l = length of decimal to binary
+var l;
+//converts the decimal to unformatted binary
+
 let n = (Number(val).toString(2)) 
 e = String(n)
 
-//converts the decimal to unformatted binary
+//checks for length<8 for formatting
 
 if (e.length<8)
 {
@@ -16,7 +21,7 @@ if (e.length<8)
 
 
 
-// adds the zeros to the front of the binary number
+// adds the zeros to the front of the binary number w/ alert to answer
 
 if(l == -7)
 {
